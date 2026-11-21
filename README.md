@@ -1,4 +1,4 @@
-# phpray-dev
+# PHPRay
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-phpray-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://phpray.dev/
+PHPRay provides open‑source tools for PHP request tracing, SQL query diagnostics and WordPress component analysis. It offers a local collector and optional cloud service to capture per‑request performance data, helping developers identify bottlenecks and improve application observability.
+
+**Areas:** PHP · Observability · Tracing · Diagnostics · Open-source
+
+## PHPRay on APIs.io
+
+Everything profiled for PHPRay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/phpray-dev/](https://apis.io/providers/phpray-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [PHPRay API](https://apis.io/apis/phpray-dev/phpray-api/) — REST API for PHPRay collector and cloud service
+- [PHPRay API](https://apis.io/apis/phpray-dev/phpray-dev-api/) — PHPRay API as documented publicly: 12 operations. Contract generated from the documentation by API Evangelist (2026-11-20); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1HealthResponse](https://apis.io/schemas/phpray-dev/phpray-dev-get-api-v1-health-response/)
+- [GetV1HealthResponse](https://apis.io/schemas/phpray-dev/phpray-dev-get-v1-health-response/)
+- [PostV1AggregatesRequest](https://apis.io/schemas/phpray-dev/phpray-dev-post-v1-aggregates-request/)
+- [PostV1AggregatesResponse](https://apis.io/schemas/phpray-dev/phpray-dev-post-v1-aggregates-response/)
+- [PostV1ControlAckRequest](https://apis.io/schemas/phpray-dev/phpray-dev-post-v1-control-ack-request/)
+- [PostV1TracesRequest](https://apis.io/schemas/phpray-dev/phpray-dev-post-v1-traces-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Phpray Dev Context](https://apis.io/jsonld/phpray-dev/phpray-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PHPRay API Rules](https://apis.io/rules/phpray-dev/phpray-dev-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PHPRay Domain Security](https://apis.io/security/phpray-dev/phpray-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PHPRay Plans Pricing](https://apis.io/plans/phpray-dev/phpray-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://phpray.dev/)
+- [Documentation](https://phpray.dev/docs)
+- [Getting started](https://phpray.dev/en/docs/install/quickstart)
+- [Pricing](https://phpray.dev/pricing)
+- [Blog](https://phpray.dev/blog)
+- [Security](https://phpray.dev/security)
+- [Privacy policy](https://phpray.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.9** — developing · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 51.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 62.6 |
+
+**Agent readiness 17.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/phpray-dev/](https://apis.io/providers/phpray-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PHPRay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/phpray-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
